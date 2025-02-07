@@ -2,41 +2,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+.para {
+  color: hsl(0, 0%, 0%); font-size: 26px;
+  font-weight: 900;
 }
 
 .small-para {
   font-size: 14px;
-  font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
 .confirm {
-  background: green;
-  color: white;
+  background: rgb(7, 199, 7);
+  color: rgb(248, 252, 248);
+  font-size: 30px;
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
+
+
+.cancel {
+  background-color: rgb(253, 255, 254);
   color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-weight: 200;
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
 
-div.text {
+div.text-child {
   color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 900;
 }
